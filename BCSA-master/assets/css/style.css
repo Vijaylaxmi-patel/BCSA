@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'robot', sans-serif;
+}
+/* variables start  */
+:root{
+    --darkpink:#DC127B;
+}
+.text-pink{
+    color:var(--darkpink);
+}
+/* variables end */
+/* reuseable code start  */
+a{
+    text-decoration: none;
+    color:#fff;
+}
+/* reuseable code end  */
+
+/* header section start  */
+header{
+    background-color: var(--darkpink);
+    font-size:13px;
+    font-weight: 200;
+}
+/* header section end  */
+/* navbar section start  */
+.navbar-brand img{
+    transition:0.2s linear;
+}
+.navbar-brand img:hover{
+    transform:scale(1.05);
+    transition:0.2s linear;
+}
+/* navbar section end  */
+/* banner section start  */
+.carousel-inner .carousel-caption{
+    position:absolute;
+    top:40%;
+    text-align:left;
+    left:9%;
+    font-family: 'roboto', sans-serif;
+}
+.carousel-indicators .button{
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: var(--darkpink);
+}
+.carousel-item .btn{
+    transition:0.2s linear;
+}
+.carousel-item .btn:hover{
+    transform:scale(1.03);
+    transition:0.2s linear;
+    color:var(--darkpink)!important;
+}
+
+marquee{
+    box-shadow: 0px 0px 5px grey;
+}
+/* banner section end */
+
+/* help section start  */
+.icon-border{
+    height:40px;
+    width:40px;
+    border:1px solid grey;
+    border-radius:50%;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+.address{
+    border-top:4px solid #0D6EFD;
+    border-bottom:4px solid #0D6EFD;
+    border-radius:9px;
+}
+.address label{
+    display:none;
+}
+.address form button{
+    padding:10px 95px;
+    font-weight: 600;
+}
+/* help section end  */
